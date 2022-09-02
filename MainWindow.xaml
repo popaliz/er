@@ -1,0 +1,26 @@
+﻿<Window x:Class="gg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gg"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="84*"/>
+            <ColumnDefinition Width="221*"/>
+            <ColumnDefinition Width="95*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="68*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="198*"/>
+            <RowDefinition Height="62*"/>
+            <RowDefinition Height="57*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Антон" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Width="40"/>
+        <Button Content="Батон" HorizontalAlignment="Left" Margin="181,0,0,0" Grid.Row="1" VerticalAlignment="Center" RenderTransformOrigin="-0.327,0.17" Height="20" Width="40" AutomationProperties.Name="gghfg" Grid.Column="1"/>
+        <Calendar Grid.Column="1" Margin="112,7,151,18" Grid.Row="2"/>
+    </Grid>
+</Window>
